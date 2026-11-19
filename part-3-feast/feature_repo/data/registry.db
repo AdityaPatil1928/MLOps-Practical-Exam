@@ -1,0 +1,280 @@
+
+H
+(
+__dummy"
+__dummy_idJexam_feature_repo
+˜ø×°Ñ˜€˜ø×°Ñ˜€
+w
+W
+	sample_id*Unique identifier for each sample instance"	sample_idJexam_feature_repo
+˜ø×°Ñ˜€ÄŸû×¸ Û±1"$cb85eb0b-a443-48cc-897c-aaf879f0ae03*õŸû×˜Ôº”2Ó
+”
+engineered_features_fvexam_feature_repo	sample_id"
+feat_interaction_prod"
+feat_interaction_ratio*
+tier
+engineered2€ç„:pevent_timestamp*created_timestampZdata/features.parquet¢features_source’ÁŸû× ó§·"ÁŸû× ó§·@b
+	sample_id’latest:
+˜ø×°Ñ˜€õŸû×˜Ôº”
+ÎÊí×Ø¥˜iÎø×Ø¥˜i02–
+
+×	
+raw_features_fvexam_feature_repo	sample_id"
+	pixel_0_0"
+	pixel_0_1"
+	pixel_0_2"
+	pixel_0_3"
+	pixel_0_4"
+	pixel_0_5"
+	pixel_0_6"
+	pixel_0_7"
+	pixel_1_0"
+	pixel_1_1"
+	pixel_1_2"
+	pixel_1_3"
+	pixel_1_4"
+	pixel_1_5"
+	pixel_1_6"
+	pixel_1_7"
+	pixel_2_0"
+	pixel_2_1"
+	pixel_2_2"
+	pixel_2_3"
+	pixel_2_4"
+	pixel_2_5"
+	pixel_2_6"
+	pixel_2_7"
+	pixel_3_0"
+	pixel_3_1"
+	pixel_3_2"
+	pixel_3_3"
+	pixel_3_4"
+	pixel_3_5"
+	pixel_3_6"
+	pixel_3_7"
+	pixel_4_0"
+	pixel_4_1"
+	pixel_4_2"
+	pixel_4_3"
+	pixel_4_4"
+	pixel_4_5"
+	pixel_4_6"
+	pixel_4_7"
+	pixel_5_0"
+	pixel_5_1"
+	pixel_5_2"
+	pixel_5_3"
+	pixel_5_4"
+	pixel_5_5"
+	pixel_5_6"
+	pixel_5_7"
+	pixel_6_0"
+	pixel_6_1"
+	pixel_6_2"
+	pixel_6_3"
+	pixel_6_4"
+	pixel_6_5"
+	pixel_6_6"
+	pixel_6_7"
+	pixel_7_0"
+	pixel_7_1"
+	pixel_7_2"
+	pixel_7_3"
+	pixel_7_4"
+	pixel_7_5"
+	pixel_7_6"
+	pixel_7_7*
+tierraw*
+datasetdigits2€ç„:¤event_timestamp*created_timestampZdata/features.parquetŠ1feast.infra.offline_stores.file_source.FileSource¢features_source’ÁŸû× ó§·"ÁŸû× ó§·@b
+	sample_id’latest:
+˜ø×°Ñ˜€ÄŸû×ğ½Ö²
+ÎÊí×Ø¥˜iÎø×Ø¥˜i :Î
+­
+exam_feature_serviceexam_feature_repoö
+raw_features_fv
+	pixel_0_0
+	pixel_0_1
+	pixel_0_2
+	pixel_0_3
+	pixel_0_4
+	pixel_0_5
+	pixel_0_6
+	pixel_0_7
+	pixel_1_0
+	pixel_1_1
+	pixel_1_2
+	pixel_1_3
+	pixel_1_4
+	pixel_1_5
+	pixel_1_6
+	pixel_1_7
+	pixel_2_0
+	pixel_2_1
+	pixel_2_2
+	pixel_2_3
+	pixel_2_4
+	pixel_2_5
+	pixel_2_6
+	pixel_2_7
+	pixel_3_0
+	pixel_3_1
+	pixel_3_2
+	pixel_3_3
+	pixel_3_4
+	pixel_3_5
+	pixel_3_6
+	pixel_3_7
+	pixel_4_0
+	pixel_4_1
+	pixel_4_2
+	pixel_4_3
+	pixel_4_4
+	pixel_4_5
+	pixel_4_6
+	pixel_4_7
+	pixel_5_0
+	pixel_5_1
+	pixel_5_2
+	pixel_5_3
+	pixel_5_4
+	pixel_5_5
+	pixel_5_6
+	pixel_5_7
+	pixel_6_0
+	pixel_6_1
+	pixel_6_2
+	pixel_6_3
+	pixel_6_4
+	pixel_6_5
+	pixel_6_6
+	pixel_6_7
+	pixel_7_0
+	pixel_7_1
+	pixel_7_2
+	pixel_7_3
+	pixel_7_4
+	pixel_7_5
+	pixel_7_6
+	pixel_7_7*created_timestamp:created_timestampBpevent_timestamp*created_timestampZdata/features.parquet¢features_source’ÁŸû× ó§·"ÁŸû× ó§·ZfeatureViewô
+engineered_features_fv
+feat_interaction_prod
+feat_interaction_ratio*created_timestamp:created_timestampBpevent_timestamp*created_timestampZdata/features.parquet¢features_source’ÁŸû× ó§·"ÁŸû× ó§·ZfeatureView"
+team
+mlops-exam
+˜ø×°Ñ˜€ÄŸû×ğÇ µR
+Á
+,feast.infra.online_stores.sqlite.SqliteTable"
+dc:\Users\PRATIK\Desktop\Aaditya Patil\MLops_Practical\part-3-feast\feature_repo\data\online_store.db(exam_feature_repo_engineered_features_fv
+º
+,feast.infra.online_stores.sqlite.SqliteTable"‰
+dc:\Users\PRATIK\Desktop\Aaditya Patil\MLops_Practical\part-3-feast\feature_repo\data\online_store.db!exam_feature_repo_raw_features_fvb·event_timestamp*created_timestampZdata/features.parquetŠ1feast.infra.offline_stores.file_source.FileSource¢features_sourceªexam_feature_repo’•ø×€´Ê'"˜ø×€ÿ úŠ3
+
+exam_feature_repo
+˜ø×˜ÃÛı˜ø×˜ÃÛı’ì
+Ù
+engineered_features_fvexam_feature_repo"feature_view*é
+È
+engineered_features_fvexam_feature_repo	sample_id"
+feat_interaction_prod"
+feat_interaction_ratio*
+tier
+engineered2€ç„:£event_timestamp*created_timestampZdata/features.parquetŠ1feast.infra.offline_stores.file_source.FileSource¢features_source’•ø×€´Ê'"˜ø×€ÿ ú@b
+	sample_id’latest
+˜ø×°Ñ˜€˜ø×°Ñ˜€2˜ø×°Ñ˜€B$74a51db6-c32f-474f-a780-ab6f44407e7e
+‰
+raw_features_fvexam_feature_repo"feature_view* 
+ÿ
+raw_features_fvexam_feature_repo	sample_id"
+alcohol"
+
+malic_acid"
+ash"
+alcalinity_of_ash"
+	magnesium"
+total_phenols"
+
+flavanoids"
+nonflavanoid_phenols"
+proanthocyanins"
+color_intensity"
+hue" 
+od280_od315_of_diluted_wines"
+proline*
+tierraw*
+datasetwine2€ç„:£event_timestamp*created_timestampZdata/features.parquetŠ1feast.infra.offline_stores.file_source.FileSource¢features_source’•ø×€´Ê'"˜ø×€ÿ ú@b
+	sample_id’latest
+˜ø×°Ñ˜€˜ø×°Ñ˜€2˜ø×°Ñ˜€B$56610a13-89d8-436b-8e2b-d305d5569500
+
+raw_features_fvexam_feature_repo"feature_view*–
+
+×	
+raw_features_fvexam_feature_repo	sample_id"
+	pixel_0_0"
+	pixel_0_1"
+	pixel_0_2"
+	pixel_0_3"
+	pixel_0_4"
+	pixel_0_5"
+	pixel_0_6"
+	pixel_0_7"
+	pixel_1_0"
+	pixel_1_1"
+	pixel_1_2"
+	pixel_1_3"
+	pixel_1_4"
+	pixel_1_5"
+	pixel_1_6"
+	pixel_1_7"
+	pixel_2_0"
+	pixel_2_1"
+	pixel_2_2"
+	pixel_2_3"
+	pixel_2_4"
+	pixel_2_5"
+	pixel_2_6"
+	pixel_2_7"
+	pixel_3_0"
+	pixel_3_1"
+	pixel_3_2"
+	pixel_3_3"
+	pixel_3_4"
+	pixel_3_5"
+	pixel_3_6"
+	pixel_3_7"
+	pixel_4_0"
+	pixel_4_1"
+	pixel_4_2"
+	pixel_4_3"
+	pixel_4_4"
+	pixel_4_5"
+	pixel_4_6"
+	pixel_4_7"
+	pixel_5_0"
+	pixel_5_1"
+	pixel_5_2"
+	pixel_5_3"
+	pixel_5_4"
+	pixel_5_5"
+	pixel_5_6"
+	pixel_5_7"
+	pixel_6_0"
+	pixel_6_1"
+	pixel_6_2"
+	pixel_6_3"
+	pixel_6_4"
+	pixel_6_5"
+	pixel_6_6"
+	pixel_6_7"
+	pixel_7_0"
+	pixel_7_1"
+	pixel_7_2"
+	pixel_7_3"
+	pixel_7_4"
+	pixel_7_5"
+	pixel_7_6"
+	pixel_7_7*
+tierraw*
+datasetdigits2€ç„:¤event_timestamp*created_timestampZdata/features.parquetŠ1feast.infra.offline_stores.file_source.FileSource¢features_source’ÁŸû× ó§·"ÁŸû× ó§·@b
+	sample_id’latest:
+˜ø×°Ñ˜€ÄŸû×ğ½Ö²
+ÎÊí×Ø¥˜iÎø×Ø¥˜i 2ÄŸû×ğÇ µB$1429238a-625d-4290-a89a-74d7a35ea187

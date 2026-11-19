@@ -1,0 +1,87 @@
+schema: '2.0'
+stages:
+  collect:
+    cmd: python src/pipeline/collect.py --output data/raw/raw_data.csv
+    deps:
+    - path: dataset_loader.py
+      hash: md5
+      md5: af048d2f01dfad03dd644c5ae9126c0f
+      size: 2035
+    - path: src/pipeline/collect.py
+      hash: md5
+      md5: b049f2a3681a8751ce9d4937252155d1
+      size: 1145
+    outs:
+    - path: data/raw/raw_data.csv
+      hash: md5
+      md5: 4aed9358578facedbe53d80eee05e4d2
+      size: 556493
+  preprocess:
+    cmd: python src/pipeline/preprocess.py --input data/raw/raw_data.csv 
+      --output data/processed/preprocessed_data.csv
+    deps:
+    - path: data/raw/raw_data.csv
+      hash: md5
+      md5: 4aed9358578facedbe53d80eee05e4d2
+      size: 556493
+    - path: src/pipeline/preprocess.py
+      hash: md5
+      md5: 80a730ccef1ac84ab371faea8ef7b9fc
+      size: 1977
+    outs:
+    - path: data/processed/preprocessed_data.csv
+      hash: md5
+      md5: 0a4dc845430e7489471da44f07a85be8
+      size: 497179
+  features:
+    cmd: python src/pipeline/features.py --input 
+      data/processed/preprocessed_data.csv --output 
+      data/processed/featured_data.csv
+    deps:
+    - path: data/processed/preprocessed_data.csv
+      hash: md5
+      md5: 0a4dc845430e7489471da44f07a85be8
+      size: 497179
+    - path: src/pipeline/features.py
+      hash: md5
+      md5: 4e1303d8ed5a6edcdd0de84132d99e49
+      size: 2818
+    outs:
+    - path: data/processed/featured_data.csv
+      hash: md5
+      md5: edb6c643fb8280bf8848b0d007374e87
+      size: 523126
+  validate:
+    cmd: python src/pipeline/validate.py --input 
+      data/processed/featured_data.csv
+    deps:
+    - path: data/processed/featured_data.csv
+      hash: md5
+      md5: edb6c643fb8280bf8848b0d007374e87
+      size: 523126
+    - path: src/pipeline/validate.py
+      hash: md5
+      md5: e03557f4e8730a9a1987d49c3610ee5c
+      size: 3551
+  train_eval:
+    cmd: python src/pipeline/train_eval.py --input 
+      data/processed/featured_data.csv --model-out models/pipeline_model.joblib 
+      --metrics-out metrics/eval_metrics.json
+    deps:
+    - path: data/processed/featured_data.csv
+      hash: md5
+      md5: edb6c643fb8280bf8848b0d007374e87
+      size: 523126
+    - path: src/pipeline/train_eval.py
+      hash: md5
+      md5: 72d90ba24fed60da5e7c4fd73c444574
+      size: 2872
+    outs:
+    - path: metrics/eval_metrics.json
+      hash: md5
+      md5: 65e63e0a8d711d96c0f9c0393a3149d3
+      size: 193
+    - path: models/pipeline_model.joblib
+      hash: md5
+      md5: 3445d9eae491651fbf6ef488be7432d2
+      size: 5056009

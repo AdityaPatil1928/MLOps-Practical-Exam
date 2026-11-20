@@ -2,7 +2,7 @@ import pandas as pd
 from sklearn.datasets import load_wine, load_breast_cancer, load_digits
 
 # CHANGE THIS ONE STRING AT RUNTIME: "wine", "breast_cancer", or "digits"
-DATASET_NAME = "digits"
+DATASET_NAME = "wine"
 
 def get_dataset(name: str = DATASET_NAME):
     if name == "wine":
